@@ -8739,64 +8739,6 @@ input:checked + * .lg-checkbox__icon {
   border-bottom: 1px solid #e3dfe1;
 }
 
-.bonus {
-  position: relative;
-}
-
-.bonus__block {
-  padding: 10px 12px;
-  padding-right: 23px;
-  background: #2268d2;
-  color: #ffffff;
-  font-size: 12px;
-  position: absolute;
-  top: 100%;
-  display: none;
-  z-index: 1;
-  white-space: nowrap;
-}
-
-.bonus__block i {
-  position: absolute;
-  bottom: 100%;
-  font-size: 0;
-}
-
-.bonus__block i:before {
-  content: '';
-  display: inline-block;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 0 3px 3px 3px;
-  border-color: transparent transparent #2268d2 transparent;
-}
-
-.bonus__close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 15px;
-  height: 15px;
-  background: #b11c52;
-  font-size: 0;
-  text-align: center;
-  line-height: 14px;
-  transition: all ease .3s;
-  color: #fff;
-}
-
-.bonus__close:hover {
-  background: #341526;
-}
-
-.bonus__close:before {
-  display: inline-block;
-  vertical-align: middle;
-  content: "";
-  font-size: 7px;
-}
-
 .captcha {
   display: inline-block;
   max-width: 100%;
@@ -11876,19 +11818,10 @@ input:checked + * .lg-checkbox__icon {
   }
 }
 
-@media only screen and (max-width: 1160px) {
-  .topbar__day-item {
-    display: none;
-  }
-}
-
-.topbar__day-item .ticon {
-  color: #ffae00;
-}
-
 .topbar__contacts {
   width: 390px;
   padding-right: 15px;
+  text-align: right;
 }
 
 @media only screen and (max-width: 1160px) {
@@ -11921,28 +11854,6 @@ input:checked + * .lg-checkbox__icon {
   display: inline-block;
   margin-right: 5px;
   vertical-align: middle;
-}
-
-.topbar__delivery {
-  text-align: right;
-  padding-right: 20px;
-}
-
-@media only screen and (max-width: 860px) {
-  .topbar__delivery {
-    display: none;
-  }
-}
-
-.topbar__cabinet {
-  width: 180px;
-  text-align: right;
-}
-
-@media only screen and (max-width: 1160px) {
-  .topbar__cabinet {
-    width: 150px;
-  }
 }
 
 @keyframes showFixedHeader {
@@ -16216,40 +16127,6 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 
 .location-dropdown__link:hover {
   color: #56223f;
-}
-
-.cabinet-dropdown {
-  background: #67324F;
-  width: 220px;
-  padding: 0;
-  text-align: left;
-  white-space: normal;
-  font-family: 'Museo Sans Cyrl';
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.cabinet-dropdown > i:before {
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 0 5.5px 6px 5.5px;
-  border-color: transparent transparent #67324F transparent;
-}
-
-.cabinet-dropdown__link {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.cabinet-dropdown__login {
-  text-align: center;
-  padding: 15px;
-}
-
-.cabinet-dropdown__login-btn {
-  margin-bottom: 8px;
 }
 
 .cabinet-dropdown__search {
