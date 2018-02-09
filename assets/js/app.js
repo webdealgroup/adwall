@@ -293,8 +293,8 @@ $(function () {
                 close();
         });
 
-        if (!$('.js-header').hasClass('fixed'))
-            $('.js-dropdown-location').click();
+/*        if (!$('.js-header').hasClass('fixed'))
+            $('.js-dropdown-location').click();*/
     })();
 
     (function () {
