@@ -234,69 +234,6 @@ $(function () {
         });
     })();
 
-    // Dropdown
-    (function () {
-        var close = function () {
-            $('.dropdown').removeClass('is-active');
-            $('.js-dropdown-toggle.is-active').removeClass('is-active');
-        };
-        var appear = function ($toggle, $block) {
-            if (!$block.find('> i').length)
-                $block.prepend($('<i>'));
-            var $i = $block.find('> i');
-            var $positioned = $toggle.find('.js-positioned').length ? $toggle.find('.js-positioned') : $toggle;
-            if ($block.offset().left + $block.outerWidth() > $('.topbar > .l-wrapper').width()) {
-                $i.css({ left: 'auto', 'right': ($toggle.parent().outerWidth() - ($positioned.outerWidth() + $positioned.position().left)) + ($positioned.outerWidth() / 2) - ($i.width() / 2)})
-                $block.css({ left: 'auto', right: 0 })
-            } else {
-                $i.css({ left: $positioned.position().left + $positioned.width() / 2 - ($i.width() / 2), right: 'auto' })
-                $block.css({ left: 0, right: 'auto' })
-            }
-        }
-        $('.js-dropdown-toggle').click(function (e) {
-            var $toggle = $(this);
-            var $dropdown = $toggle.parents('.dropdown:first');
-            var $block = $dropdown.find('.dropdown__block');
-            close();
-            $dropdown.toggleClass('is-active');
-            appear($toggle, $block);
-            $dropdown.find('.js-custom-scroll').perfectScrollbar('update');
-            e.preventDefault();
-            return false;
-        });
-
-        $('.js-dropdown-close').click(function (e) {
-            close();
-            e.preventDefault();
-            return false;
-        })
-
-        /*
-        $('.js-bonus-target').each(function () {
-            var $target = $(this);
-            var $bonus = $target.parents('.bonus:first');
-            var $block = $bonus.find('.bonus__block');
-            $block.fadeIn();
-            appear($target, $block);
-        });
-        */
-
-        $('.js-bonus-close').click(function () {
-            $(this).parent().remove();
-            return false;
-        });
-
-        $('html').click(function (e) {
-            var $t = $(e.target);
-
-            if (!$t.parents('.dropdown').length)
-                close();
-        });
-
-/*        if (!$('.js-header').hasClass('fixed'))
-            $('.js-dropdown-location').click();*/
-    })();
-
     (function () {
         var $select = $('.js-location-select');
         var $selectBlock = $('.js-location-list')
@@ -684,7 +621,6 @@ $(function () {
             }
         }
         var $cart = $('.js-cart');
-        var $favs = $('.js-favs');
 
         $body.on('click', '.js-cart-add', function () {
             var $this = $(this);
