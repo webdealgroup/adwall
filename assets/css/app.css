@@ -15377,13 +15377,13 @@ html.touchevents .item-click__remove {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(224, 224, 224, 0.8);
+  background: rgba(0, 0, 0, 0.1);
   content: '';
   display: block;
 }
 
 .item-gallery__thumbs .swiper-slide-active:before {
-  background: rgba(86, 34, 63, 0.9);
+  background: rgba(86, 34, 63, 0.5);
 }
 
 .item-gallery__thumbs .swiper-slide img {
