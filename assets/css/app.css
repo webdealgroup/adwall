@@ -12901,7 +12901,8 @@ input:checked + * .lg-checkbox__icon {
 }
 
 .item__desc-left {
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -12911,6 +12912,22 @@ input:checked + * .lg-checkbox__icon {
   }
 }
 
+.item__desc-left .text ul {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.item__desc-left .text ul, .item__desc-left .text ol {
+	margin-bottom: 10px;	
+}
+
+.item__desc-left .text p {
+	margin-bottom: 10px;
+}
+
+.item__desc-right {
+	display: none;
+}
 .item__actions {
   padding: 20px;
   font-size: 14px;
