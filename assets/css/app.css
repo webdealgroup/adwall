@@ -12811,6 +12811,7 @@ input:checked + * .lg-checkbox__icon {
   position: absolute;
   bottom: 0;
   right: 0;
+  max-height: 50px;
   max-width: 100%;
   z-index: 1;
 }
