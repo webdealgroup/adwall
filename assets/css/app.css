@@ -4264,12 +4264,12 @@ a, .link {
   animation: fadeIn .3s forwards;
 }
 
-.toggler__list, .toggler-w__list, .switcher__inn, .gender-select__inn, .input-row, .input-range, .sort__inn, .progress-bar__row, .avatar-upload__up, .lg-checkbox__header-inn, .lg-checkbox__row, .logo__inn, .go-to-page__inn, .pager__info-inn, .promo-input__inn, .stats__inn, .worker__inn, .hint__inn, .status-row__inn, .order-step__header-inn, .order-step__actions, .order-info__row, .opinion__author, .social-item__inn, .success-form, .l-order__inn, .l-cabinet__inn, .l-catalog, .catalog__content-inn, .topbar__inn, .header__row, .footer__top-inn, .footer__categories, .item__top, .item__header, .item__main, .item__header-left > *, .item__header-right > *, .item__desc, .item__actions-inn, .item-meta__actions-inn, .item-meta__links-inn, .item-meta__sizes-inn, .items__header, .item-grid__meta, .item-grid__actions, .item-cart__inn, .hot-items__header, .item-hot__inn, .item-hot__actions, .item-click__inn, .item-click__row, .item-click__num, .item-order__inn, .catalog-items__header, .catalog-items__actions, .catalog-items__filters-inn, .catalog-items__share, .catalog-items__nav, .fast-view__header, .fast-view__main, .gift-box__inn, .login-tabs__menu, .subscribe-mini, .md-cart__header, .md-cart__bottom, .md-accessories__total, .md-accessories__list, .p-about__inn, .p-about__features, .p-contacts__inn, .p-contacts__submit-inn, .p-history__main, .p-data, .p-data__info-links, .p-data__connect, .p-order__delivery, .p-order__address, .p-complete__header-inn, .p-complete__cabinet-inn, .p-complete__info-inn {
+.toggler__list, .toggler-w__list, .switcher__inn, .gender-select__inn, .input-row, .input-range, .sort__inn, .progress-bar__row, .avatar-upload__up, .lg-checkbox__header-inn, .lg-checkbox__row, .logo__inn, .promo-input__inn, .stats__inn, .worker__inn, .hint__inn, .status-row__inn, .order-step__header-inn, .order-step__actions, .order-info__row, .opinion__author, .social-item__inn, .success-form, .l-order__inn, .l-cabinet__inn, .l-catalog, .catalog__content-inn, .topbar__inn, .header__row, .footer__top-inn, .footer__categories, .item__top, .item__header, .item__main, .item__header-left > *, .item__header-right > *, .item__desc, .item__actions-inn, .item-meta__actions-inn, .item-meta__links-inn, .item-meta__sizes-inn, .items__header, .item-grid__meta, .item-grid__actions, .item-cart__inn, .hot-items__header, .item-hot__inn, .item-hot__actions, .item-click__inn, .item-click__row, .item-click__num, .item-order__inn, .catalog-items__header, .catalog-items__actions, .catalog-items__filters-inn, .catalog-items__share, .fast-view__header, .fast-view__main, .gift-box__inn, .login-tabs__menu, .subscribe-mini, .md-cart__header, .md-cart__bottom, .md-accessories__total, .md-accessories__list, .p-about__inn, .p-about__features, .p-contacts__inn, .p-contacts__submit-inn, .p-history__main, .p-data, .p-data__info-links, .p-data__connect, .p-order__delivery, .p-order__address, .p-complete__header-inn, .p-complete__cabinet-inn, .p-complete__info-inn {
   display: table;
   width: 100%;
 }
 
-.toggler__list > *, .toggler-w__list > *, .switcher__inn > *, .gender-select__inn > *, .input-row > *, .input-range > *, .sort__inn > *, .progress-bar__row > *, .avatar-upload__up > *, .lg-checkbox__header-inn > *, .lg-checkbox__row > *, .logo__inn > *, .go-to-page__inn > *, .pager__info-inn > *, .promo-input__inn > *, .stats__inn > *, .worker__inn > *, .hint__inn > *, .status-row__inn > *, .order-step__header-inn > *, .order-step__actions > *, .order-info__row > *, .opinion__author > *, .social-item__inn > *, .success-form > *, .l-order__inn > *, .l-cabinet__inn > *, .l-catalog > *, .catalog__content-inn > *, .topbar__inn > *, .header__row > *, .footer__top-inn > *, .footer__categories > *, .item__top > *, .item__header > *, .item__main > *, .item__header-left > * > *, .item__header-right > * > *, .item__desc > *, .item__actions-inn > *, .item-meta__actions-inn > *, .item-meta__links-inn > *, .item-meta__sizes-inn > *, .items__header > *, .item-grid__meta > *, .item-grid__actions > *, .item-cart__inn > *, .hot-items__header > *, .item-hot__inn > *, .item-hot__actions > *, .item-click__inn > *, .item-click__row > *, .item-click__num > *, .item-order__inn > *, .catalog-items__header > *, .catalog-items__actions > *, .catalog-items__filters-inn > *, .catalog-items__share > *, .catalog-items__nav > *, .fast-view__header > *, .fast-view__main > *, .gift-box__inn > *, .login-tabs__menu > *, .subscribe-mini > *, .md-cart__header > *, .md-cart__bottom > *, .md-accessories__total > *, .md-accessories__list > *, .p-about__inn > *, .p-about__features > *, .p-contacts__inn > *, .p-contacts__submit-inn > *, .p-history__main > *, .p-data > *, .p-data__info-links > *, .p-data__connect > *, .p-order__delivery > *, .p-order__address > *, .p-complete__header-inn > *, .p-complete__cabinet-inn > *, .p-complete__info-inn > * {
+.toggler__list > *, .toggler-w__list > *, .switcher__inn > *, .gender-select__inn > *, .input-row > *, .input-range > *, .sort__inn > *, .progress-bar__row > *, .avatar-upload__up > *, .lg-checkbox__header-inn > *, .lg-checkbox__row > *, .logo__inn > *, .promo-input__inn > *, .stats__inn > *, .worker__inn > *, .hint__inn > *, .status-row__inn > *, .order-step__header-inn > *, .order-step__actions > *, .order-info__row > *, .opinion__author > *, .social-item__inn > *, .success-form > *, .l-order__inn > *, .l-cabinet__inn > *, .l-catalog > *, .catalog__content-inn > *, .topbar__inn > *, .header__row > *, .footer__top-inn > *, .footer__categories > *, .item__top > *, .item__header > *, .item__main > *, .item__header-left > * > *, .item__header-right > * > *, .item__desc > *, .item__actions-inn > *, .item-meta__actions-inn > *, .item-meta__links-inn > *, .item-meta__sizes-inn > *, .items__header > *, .item-grid__meta > *, .item-grid__actions > *, .item-cart__inn > *, .hot-items__header > *, .item-hot__inn > *, .item-hot__actions > *, .item-click__inn > *, .item-click__row > *, .item-click__num > *, .item-order__inn > *, .catalog-items__header > *, .catalog-items__actions > *, .catalog-items__filters-inn > *, .catalog-items__share > *, .fast-view__header > *, .fast-view__main > *, .gift-box__inn > *, .login-tabs__menu > *, .subscribe-mini > *, .md-cart__header > *, .md-cart__bottom > *, .md-accessories__total > *, .md-accessories__list > *, .p-about__inn > *, .p-about__features > *, .p-contacts__inn > *, .p-contacts__submit-inn > *, .p-history__main > *, .p-data > *, .p-data__info-links > *, .p-data__connect > *, .p-order__delivery > *, .p-order__address > *, .p-complete__header-inn > *, .p-complete__cabinet-inn > *, .p-complete__info-inn > * {
   display: table-cell;
   vertical-align: middle;
 }
@@ -6844,62 +6844,6 @@ input:checked + .gender-select__checkbox-item {
     border-width: 13px 0 13px 11px;
     border-color: transparent transparent transparent #fff;
   }
-}
-
-.pagination {
-  font-size: 0;
-  list-style: none;
-}
-
-.pagination__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
-  font-family: 'Museo Sans Cyrl';
-  font-weight: 300;
-  text-align: center;
-  font-size: 14px;
-}
-
-.pagination__item:last-child {
-  margin-right: 0;
-}
-
-.pagination__item--dots {
-  color: #2d2d2d;
-}
-
-.pagination__item--dots:before {
-  content: '...';
-}
-
-.pagination__item.is-active .pagination__link {
-  background: #2268d2;
-}
-
-.pagination__link {
-  display: block;
-  height: 34px;
-  line-height: 36px;
-  width: 34px;
-  color: #ffffff;
-  background: #c3bdc0;
-  text-align: center;
-  border-radius: 50%;
-  transition: all ease .3s;
-}
-
-@media only screen and (max-width: 480px) {
-  .pagination__link {
-    width: 27px;
-    height: 27px;
-    line-height: 28px;
-    font-size: 12px;
-  }
-}
-
-.pagination__link:hover {
-  background: #757374;
 }
 
 .input-range > * {
@@ -9968,109 +9912,8 @@ input:checked + * .lg-checkbox__icon {
   color: #777777;
 }
 
-.go-to-page {
-  font-family: 'Museo Sans Cyrl';
-  font-weight: 300;
-  font-size: 13px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.go-to-page__inn {
-  width: auto;
-}
-
-.go-to-page__cell {
-  padding-right: 5px;
-}
-
-.go-to-page__cell:last-child {
-  padding-right: 0;
-}
-
-.go-to-page__label {
-  color: #777777;
-}
-
-.go-to-page__input, .go-to-page__btn {
-  height: 33px;
-  line-height: 33px;
-}
-
-.go-to-page__input {
-  display: block;
-  width: 45px;
-  border: 1px solid #cbc9ca;
-  border-radius: 6px;
-  font-family: 'Museo Sans Cyrl';
-  font-weight: 300;
-  font-size: 13px;
-  color: #777777;
-  text-align: center;
-  transition: all ease .3s;
-}
-
-.go-to-page__input:focus {
-  border-color: #2268d2;
-}
-
-.go-to-page__btn {
-  border: 0;
-  background: #2268d2;
-  color: #ffffff;
-  border-radius: 6px;
-  display: inline-block;
-  text-align: center;
-  padding: 0 7px;
-}
-
-.pager {
-  display: inline-block;
-}
-
-@media only screen and (max-width: 480px) {
-  .pager {
-    width: 100%;
-  }
-}
-
 * + .pager__info {
   margin-top: 15px;
-}
-
-.pager__info-inn {
-  width: auto;
-}
-
-@media only screen and (max-width: 760px) {
-  .pager__info-inn {
-    width: 100%;
-  }
-}
-
-.pager__info-total {
-  font-family: 'Museo Sans Cyrl';
-  font-weight: 300;
-  font-size: 14px;
-  color: #777777;
-  white-space: nowrap;
-}
-
-@media only screen and (max-width: 480px) {
-  .pager__info-total {
-    text-align: center;
-  }
-}
-
-.pager__info-btn {
-  white-space: nowrap;
-  padding-left: 15px;
-}
-
-@media only screen and (max-width: 760px) {
-  .pager__info-btn {
-    display: none;
-  }
 }
 
 .table-chars {
@@ -15195,72 +15038,6 @@ html.touchevents .item-click__remove {
 @media only screen and (max-width: 640px) {
   .catalog-items__share .share-link {
     font-size: 0;
-  }
-}
-
-.catalog-items__nav {
-  margin-top: 15px;
-  table-layout: fixed;
-}
-
-@media only screen and (max-width: 480px) {
-  .catalog-items__nav {
-    display: block;
-  }
-}
-
-.catalog-items__nav > * {
-  vertical-align: top !important;
-}
-
-@media only screen and (max-width: 480px) {
-  .catalog-items__nav > * {
-    display: block;
-    width: 100% !important;
-    padding: 0;
-  }
-}
-
-.catalog-items__nav-pagination {
-  position: relative;
-}
-
-.catalog-items__nav-pagination > .next-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-
-@media only screen and (min-width: 760px) {
-  .catalog-items__nav-pagination > .next-btn {
-    display: none;
-  }
-}
-
-.catalog-items__nav-more {
-  width: 130px;
-  white-space: nowrap;
-}
-
-@media only screen and (max-width: 940px) {
-  .catalog-items__nav-more {
-    display: none;
-  }
-}
-
-.catalog-items__nav-go {
-  text-align: right;
-}
-
-.catalog-items__nav-go .pager__info-total {
-  white-space: normal;
-  padding-left: 15px;
-}
-
-@media only screen and (max-width: 760px) {
-  .catalog-items__nav-go {
-    display: none;
   }
 }
 
