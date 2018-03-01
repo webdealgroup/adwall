@@ -13724,6 +13724,11 @@ input:checked + * .lg-checkbox__icon {
   margin-bottom: -6px;
 }
 
+.items__list .items__cell .item-grid__carousel .swiper-dots {
+  bottom: 0;
+  margin-bottom: -20px;
+}
+
 .item-grid__carousel .swiper-dot {
   background: #f5f5f5;
 }
