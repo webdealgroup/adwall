@@ -18917,6 +18917,10 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	color: #ff0000;
 	font-size: 30px;
 }
+.stamps .fast-view__container {
+	max-width: 400px;
+	margin: auto;
+}
 .btn--red {
     background: #ff0000;
     border-color: #ff0000;
