@@ -18857,6 +18857,16 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 		width: 50%;
 	}
 }
+@media only screen and (max-width: 480px) {
+	.stamps .catalog-items__cell {
+		width: 100%;
+	}
+}
+.stamps .item-grid__fast-view {
+	overflow: visible;
+    height: 40px;
+    margin-top: 30px;
+}
 .stamps .p-print {
 	-webkit-display: flex;
 	   -moz-display: flex;
@@ -18906,4 +18916,8 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps .p-info .p-info__subtitle {
 	color: #e9a4a9;
 	font-size: 30px;
+}
+.btn--red {
+    background: #bb884f;
+    border-color: #bb884f;
 }
