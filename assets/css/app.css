@@ -18866,6 +18866,10 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
     padding: 20px;
     text-align: center;
 }
+.stamps .p-print-items__cell img {
+	width: 100%;
+	max-width: 137px;
+}
 .stamps .p-info {
 	padding: 10px 0;
 	background: transparent;
