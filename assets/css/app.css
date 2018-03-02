@@ -18804,7 +18804,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps .p-complete {
 	padding: 10px 0;
 	background: #fff;
-	border: 2px solid #bb884f;
+	border: 2px solid #ff0000;
 	text-align: center;
 }
 .stamps .p-complete {
@@ -18833,7 +18833,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	margin-top: 30px;
 }
 .stamps .p-complete .p-complete__subtitle {
-	color: #e9a4a9;
+	color: #ff0000;
 }
 .stamps .logo {
 	position: absolute;
@@ -18846,7 +18846,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	}
 }
 .stamps .item-grid {
-	border: 2px solid #bb884f;
+	border: 2px solid #ff0000;
 	background-color: transparent;
 }
 .stamps .catalog-items__cell {
@@ -18857,7 +18857,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 		width: 50%;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 	.stamps .catalog-items__cell {
 		width: 100%;
 	}
@@ -18888,7 +18888,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps .p-info {
 	padding: 10px 0;
 	background: transparent;
-	border: 2px solid #bb884f;
+	border: 2px solid #ff0000;
 	text-align: center;
 	position: relative;
 }
@@ -18914,10 +18914,10 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	margin-top: 30px;
 }
 .stamps .p-info .p-info__subtitle {
-	color: #e9a4a9;
+	color: #ff0000;
 	font-size: 30px;
 }
 .btn--red {
-    background: #bb884f;
-    border-color: #bb884f;
+    background: #ff0000;
+    border-color: #ff0000;
 }
