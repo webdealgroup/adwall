@@ -4302,6 +4302,9 @@ a, .link {
   .hidden-sm {
     display: none !important;
   }
+  .footer-main .hidden-sm {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -7854,7 +7857,7 @@ input:checked + * .lg-checkbox__icon {
   background: rgba(86, 34, 63, 0.9);
 }
 
-.logo {
+.stamps .p-complete .logo {
   width: 276px;
   display: inline-block;
 }
@@ -11252,7 +11255,9 @@ input:checked + * .lg-checkbox__icon {
 .l-main {
   overflow: hidden;
 }
-
+.stamps .l-main {
+  overflow: initial;
+}
 @media only screen and (max-width: 760px) {
   .l-main {
     padding-top: 50px;
@@ -18801,6 +18806,9 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps {
 	background: #f1f9b0;
 }
+.stamps .loader img {
+	margin: auto;
+}
 .stamps .p-complete {
 	padding: 10px 0;
 	background: #fff;
@@ -18835,13 +18843,15 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps .p-complete .p-complete__subtitle {
 	color: #ff0000;
 }
-.stamps .logo {
+.stamps .p-complete .logo, .stamps .p-info .logo {
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
+	width: 200px;
+    display: inline-block;
 }
 @media only screen and (max-width: 768px) {
-	.stamps .logo {
+	.stamps .p-complete .logo, .stamps .p-info .logo {
 		display: none;
 	}
 }
@@ -18858,8 +18868,13 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	}
 }
 @media only screen and (max-width: 360px) {
-	.stamps .catalog-items__cell {
+	.catalog-items__cell {
 		width: 100%;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.stamps .item-grid__actions > * {
+		display: block;
 	}
 }
 .stamps .item-grid__fast-view {
@@ -18884,6 +18899,7 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 .stamps .p-print-items__cell img {
 	width: 100%;
 	max-width: 137px;
+	margin: 0 auto;
 }
 .stamps .p-info {
 	padding: 10px 0;
@@ -18921,7 +18937,51 @@ html.touchevents .item-gallery__carousel .swiper-prev, html.touchevents .item-ga
 	max-width: 400px;
 	margin: auto;
 }
+.stamps .item-grid__name:hover {
+	text-decoration: none;
+}
+.stamps .item-grid__actions {
+	background: #F0F8AF;
+	padding: 5px;
+}
+.stamps .item-grid__actions .price--old {
+	text-decoration: none;
+	font-size:20px;
+}
+.stamps .item-grid__actions .price--hot {
+	float:right;
+}
+@media only screen and (max-width: 900px) and (min-width: 768px){
+	.stamps .item-grid__actions .price--old,
+	.stamps .item-grid__actions .price--hot {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.stamps .item-grid__actions .price--old,
+	.stamps .item-grid__actions .price--hot {
+		font-size: 16px;
+	}
+}
 .btn--red {
     background: #ff0000;
     border-color: #ff0000;
+}
+.stamps .btn input, .order-step__btn input {
+    display: none;
+}
+.stamps .md-click__form .btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border: 0;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 18px;
+    text-align: center;
+    transition: all ease .3s;
+    cursor: pointer;
 }
